@@ -18,7 +18,6 @@ namespace backEnd_pizzaria.Data
 
         #region CRUD
 
-        // POST: api/clientes
         [HttpPost]
         public async Task<IActionResult> AddCliente([FromBody] Cliente cliente)
         {
@@ -30,7 +29,6 @@ namespace backEnd_pizzaria.Data
             return Ok(cliente);
         }
 
-        // GET: api/clientes
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Cliente>>> GetClientes()
         {
@@ -38,24 +36,19 @@ namespace backEnd_pizzaria.Data
             return Ok(clientes);
         }
 
-        // GET: api/clientes/{id}
         [HttpGet("{id}")]
         public async Task<ActionResult<Cliente>> GetCliente(int id)
         {
             var cliente = await _appDbContext.Clientes.FindAsync(id);
-
             if (cliente == null)
                 return NotFound("Cliente não encontrado no sistema!");
-
             return Ok(cliente);
         }
 
-        // PUT: api/clientes/{id}
         [HttpPut("{id}")]
         public async Task<IActionResult> UpdateCliente(int id, [FromBody] Cliente clienteAtualizado)
         {
             var clienteExistente = await _appDbContext.Clientes.FindAsync(id);
-
             if (clienteExistente == null)
                 return NotFound("Cliente não encontrado no sistema!");
 
@@ -65,12 +58,10 @@ namespace backEnd_pizzaria.Data
             return StatusCode(201, clienteExistente);
         }
 
-        // DELETE: api/clientes/{id}
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteCliente(int id)
         {
             var cliente = await _appDbContext.Clientes.FindAsync(id);
-
             if (cliente == null)
                 return NotFound("Cliente não encontrado no sistema!");
 
@@ -104,7 +95,7 @@ namespace backEnd_pizzaria.Data
                 cliente.Email
             });
         }
-
+        
         #endregion
     }
 }

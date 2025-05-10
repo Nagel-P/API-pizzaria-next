@@ -10,7 +10,7 @@ namespace backEnd_pizzaria.Services
     {
         public static string GenerateToken(Cliente cliente)
         {
-            var key = Encoding.ASCII.GetBytes("sua-chave-secreta-super-segura"); // depois coloque no appsettings
+            var key = Encoding.ASCII.GetBytes("chave-muito-segura-para-gerar-token!"); // depois coloque no appsettings
             var tokenConfig = new SecurityTokenDescriptor
             {
                 Subject = new ClaimsIdentity(new[]

@@ -92,3 +92,11 @@ D:\bkp\Documents\Geral\PROGRAMACAO\Next\ProjetoPizzaria3\API-pizzaria-next\backE
 D:\bkp\Documents\Geral\PROGRAMACAO\Next\ProjetoPizzaria3\API-pizzaria-next\backEnd-pizzaria\obj\Debug\net8.0\backEnd-pizzaria.pdb
 D:\bkp\Documents\Geral\PROGRAMACAO\Next\ProjetoPizzaria3\API-pizzaria-next\backEnd-pizzaria\obj\Debug\net8.0\backEnd-pizzaria.genruntimeconfig.cache
 D:\bkp\Documents\Geral\PROGRAMACAO\Next\ProjetoPizzaria3\API-pizzaria-next\backEnd-pizzaria\obj\Debug\net8.0\ref\backEnd-pizzaria.dll
+C:\college-projects-sw\Pizzaria-Quarta\API-pizzaria-react\backEnd-pizzaria\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\college-projects-sw\Pizzaria-Quarta\API-pizzaria-react\backEnd-pizzaria\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\college-projects-sw\Pizzaria-Quarta\API-pizzaria-react\backEnd-pizzaria\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\college-projects-sw\Pizzaria-Quarta\API-pizzaria-react\backEnd-pizzaria\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\college-projects-sw\Pizzaria-Quarta\API-pizzaria-react\backEnd-pizzaria\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\college-projects-sw\Pizzaria-Quarta\API-pizzaria-react\backEnd-pizzaria\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\college-projects-sw\Pizzaria-Quarta\API-pizzaria-react\backEnd-pizzaria\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\college-projects-sw\Pizzaria-Quarta\API-pizzaria-react\backEnd-pizzaria\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll

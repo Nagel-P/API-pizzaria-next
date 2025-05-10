@@ -15,7 +15,8 @@ var connectionString = builder.Configuration.GetConnectionString("AppDbConnectio
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString)));
 
-var key = Encoding.ASCII.GetBytes("sua-chave-secreta-super-segura");
+// Configuração do JWT
+var key = Encoding.ASCII.GetBytes("chave-muito-segura-para-gerar-token!");
 
 builder.Services.AddAuthentication(options =>
 {
@@ -35,6 +36,17 @@ builder.Services.AddAuthentication(options =>
     };
 });
 
+// CONFIGURAÇÃO DO CORS
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowFrontend", policy =>
+    {
+        policy.WithOrigins("http://localhost:3000") 
+              .AllowAnyHeader()
+              .AllowAnyMethod();
+    });
+});
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline
@@ -44,9 +56,11 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-app.UseHttpsRedirection();
+// app.UseHttpsRedirection(); Testando
 
-app.UseAuthentication(); // ✅ Lembre-se de usar o middleware de autenticação também
+app.UseCors("AllowFrontend"); // Aplicando a política de CORS
+
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();

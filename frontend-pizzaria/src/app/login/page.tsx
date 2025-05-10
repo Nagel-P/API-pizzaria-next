@@ -12,18 +12,24 @@ export default function LoginPage() {
   };
 
   const handleLogin = async () => {
-    const res = await fetch("https://localhost:5098/api/clientes/login", {
+    const email = form.email.trim().toLowerCase();
+    const senha = form.senha.trim();
+
+    console.log("Email enviado:", email);
+    console.log("Senha enviada:", senha);
+
+    const res = await fetch("http://localhost:5098/api/clientes/login", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(form),
+      body: JSON.stringify({ email, senha }),
     });
 
     if (res.ok) {
       const data = await res.json();
-      localStorage.setItem("token", data.token); // Salva o token
+      localStorage.setItem("token", data.token);
       localStorage.setItem("user", JSON.stringify({ id: data.id, nome: data.nome, email: data.email }));
       alert(`Bem-vindo, ${data.nome}!`);
-      router.push("/dashboard"); // Redireciona para uma página protegida
+      router.push("/dashboard");
     } else {
       alert("Login inválido");
     }

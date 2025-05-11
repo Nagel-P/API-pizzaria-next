@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "G7rU1ZD40uc=",
+  "dgSpecHash": "hV7JHKgAZcE=",
   "success": true,
-  "projectFilePath": "C:\\college-projects-sw\\Pizzaria-Quarta\\API-pizzaria-react\\backEnd-pizzaria\\backEnd-pizzaria.csproj",
+  "projectFilePath": "C:\\college-projects-sw\\Pizzaria-Quarta\\API-pizzaria-next\\backEnd-pizzaria\\backEnd-pizzaria.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Igor\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Igor\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\8.0.0\\microsoft.aspnetcore.authentication.jwtbearer.8.0.0.nupkg.sha512",

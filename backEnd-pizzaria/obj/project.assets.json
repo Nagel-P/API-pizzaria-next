@@ -1754,11 +1754,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\college-projects-sw\\Pizzaria-Quarta\\API-pizzaria-react\\backEnd-pizzaria\\backEnd-pizzaria.csproj",
+      "projectUniqueName": "C:\\college-projects-sw\\Pizzaria-Quarta\\API-pizzaria-next\\backEnd-pizzaria\\backEnd-pizzaria.csproj",
       "projectName": "backEnd-pizzaria",
-      "projectPath": "C:\\college-projects-sw\\Pizzaria-Quarta\\API-pizzaria-react\\backEnd-pizzaria\\backEnd-pizzaria.csproj",
+      "projectPath": "C:\\college-projects-sw\\Pizzaria-Quarta\\API-pizzaria-next\\backEnd-pizzaria\\backEnd-pizzaria.csproj",
       "packagesPath": "C:\\Users\\Igor\\.nuget\\packages\\",
-      "outputPath": "C:\\college-projects-sw\\Pizzaria-Quarta\\API-pizzaria-react\\backEnd-pizzaria\\obj\\",
+      "outputPath": "C:\\college-projects-sw\\Pizzaria-Quarta\\API-pizzaria-next\\backEnd-pizzaria\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Igor\\AppData\\Roaming\\NuGet\\NuGet.Config"

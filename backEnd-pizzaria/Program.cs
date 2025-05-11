@@ -56,6 +56,8 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+app.UseStaticFiles();
+
 // app.UseHttpsRedirection(); Testando
 
 app.UseCors("AllowFrontend"); // Aplicando a política de CORS

@@ -152,3 +152,4 @@ C:\college-projects-sw\Pizzaria-Quarta\API-pizzaria-next\backEnd-pizzaria\obj\De
 C:\college-projects-sw\Pizzaria-Quarta\API-pizzaria-next\backEnd-pizzaria\obj\Debug\net8.0\backEnd-pizzaria.genruntimeconfig.cache
 C:\college-projects-sw\Pizzaria-Quarta\API-pizzaria-next\backEnd-pizzaria\obj\Debug\net8.0\ref\backEnd-pizzaria.dll
 C:\college-projects-sw\Pizzaria-Quarta\API-pizzaria-next\backEnd-pizzaria\bin\Debug\net8.0\backEnd-pizzaria.staticwebassets.runtime.json
+D:\bkp\Documents\Geral\PROGRAMACAO\Next\ProjetoPizzaria3\API-pizzaria-next\backEnd-pizzaria\bin\Debug\net8.0\backEnd-pizzaria.staticwebassets.runtime.json

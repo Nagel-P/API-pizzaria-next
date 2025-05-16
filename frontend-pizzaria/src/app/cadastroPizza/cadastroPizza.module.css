@@ -154,5 +154,16 @@
     color: white;
 }
 
+.idProduct input{
+  width: 480px;
+  height: 30px;
+}
+
+.idProduct button{
+  margin-left: 10px;
+  width: 100px;
+  height: 38px;
+}
+
 
 

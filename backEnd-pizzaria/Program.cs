@@ -60,7 +60,7 @@ app.UseStaticFiles();
 
 // app.UseHttpsRedirection(); Testando
 
-app.UseCors("AllowFrontend"); // Aplicando a política de CORS
+app.UseCors("AllowFrontend"); 
 
 app.UseAuthentication();
 app.UseAuthorization();

@@ -39,9 +39,9 @@ builder.Services.AddAuthentication(options =>
 // CONFIGURAÇÃO DO CORS
 builder.Services.AddCors(options =>
 {
-    options.AddPolicy("AllowFrontend", policy =>
+    options.AddDefaultPolicy(policy =>
     {
-        policy.WithOrigins("http://localhost:3000") 
+        policy.AllowAnyOrigin()
               .AllowAnyHeader()
               .AllowAnyMethod();
     });
@@ -60,7 +60,7 @@ app.UseStaticFiles();
 
 // app.UseHttpsRedirection(); Testando
 
-app.UseCors("AllowFrontend"); 
+app.UseCors(); 
 
 app.UseAuthentication();
 app.UseAuthorization();

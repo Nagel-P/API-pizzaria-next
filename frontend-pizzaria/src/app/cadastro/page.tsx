@@ -13,7 +13,7 @@ export default function CadastroPage() {
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setForm({ ...form, [e.target.name]: e.target.value });
-  };
+  };  
 
   const handleSubmit = async () => {
     const res = await fetch("http://localhost:5098/api/clientes", {

@@ -7,6 +7,7 @@ import CardItem from "@/components/CardItem"; // ajuste o path se necessário
 type Pizza = {
   id: number;
   nome: string;
+  descricao: string;
   preco: number;
   imagemUrl: string;
 };
@@ -38,7 +39,7 @@ export default function CardapioPage() {
           <CardItem
             key={pizza.id}
             nome={pizza.nome}
-            descricao={`Deliciosa pizza ${pizza.nome}`} // pode ajustar conforme quiser
+            descricao={pizza.descricao} // pode ajustar conforme quiser
             preco={Number(pizza.preco)}
             onAdicionar={() => alert(`Pizza ${pizza.nome} adicionada!`)}
           />

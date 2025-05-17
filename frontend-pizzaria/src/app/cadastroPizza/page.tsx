@@ -213,7 +213,7 @@ export default function CadastroPizza() {
                                     <label>ID da Pizza:</label>
                                     <input type="number" value={id} onChange={(e) => setId(e.target.value)} />
                                 </div>
-                                <button className={styles.btnRed} onClick={handleDeletePizza} disabled={loading}>
+                                <button className={styles.delete} onClick={handleDeletePizza} disabled={loading}>
                                     {loading ? 'Excluindo...' : 'Excluir'}
                                 </button>
                                 <button className={styles.cancell} onClick={() => setActiveForm('')} disabled={loading}>Cancelar</button>
@@ -232,7 +232,7 @@ export default function CadastroPizza() {
                                                 <p>ID: {pizza.id}</p>
                                                 <h3>{pizza.nome}</h3>
                                                 <p>{pizza.descricao}</p>
-                                                <p>R$ {pizza.preco.toFixed(2)}</p>  // Campo mudou para 'preco'
+                                                <p>R$ {pizza.preco.toFixed(2)}</p> 
                                             </div>
                                         </div>
                                     ))

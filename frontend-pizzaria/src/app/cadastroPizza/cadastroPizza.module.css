@@ -154,6 +154,10 @@
     color: white;
 }
 
+.delete{
+  background-color: rgb(224, 111, 111);
+}
+
 .idProduct input{
   width: 480px;
   height: 30px;

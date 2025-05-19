@@ -1,8 +1,8 @@
-// src/app/cardapio/page.tsx
 "use client";
 
 import { useEffect, useState } from "react";
-import CardItem from "@/components/CardItem"; // ajuste o path se necessário
+import CardItem from "@/components/CardItem";
+import styles from './cardapio.module.css';
 
 type Pizza = {
   id: number;
@@ -32,14 +32,15 @@ export default function CardapioPage() {
   }, []);
 
   return (
-    <main className="p-4">
-      <h2 className="text-2xl font-bold mb-4">Nosso Cardápio</h2>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+    <main className={styles.containerCardapio}>
+      <h2 className={styles.titulo}>Nosso Cardápio</h2>
+
+      <div className={styles.gridCardapio}>
         {pizzas.map((pizza) => (
           <CardItem
             key={pizza.id}
             nome={pizza.nome}
-            descricao={pizza.descricao} // pode ajustar conforme quiser
+            descricao={pizza.descricao}
             preco={Number(pizza.preco)}
             onAdicionar={() => alert(`Pizza ${pizza.nome} adicionada!`)}
           />

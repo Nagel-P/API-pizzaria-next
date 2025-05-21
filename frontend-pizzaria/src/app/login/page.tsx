@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { useRouter } from "next/navigation";
+import styles from "./login.module.css";
 
 export default function LoginPage() {
   const [form, setForm] = useState({ email: "", senha: "" });
@@ -11,12 +12,11 @@ export default function LoginPage() {
     setForm({ ...form, [e.target.name]: e.target.value });
   };
 
-  const handleLogin = async () => {
+  const handleLogin = async (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+
     const email = form.email.trim().toLowerCase();
     const senha = form.senha.trim();
-
-    console.log("Email enviado:", email);
-    console.log("Senha enviada:", senha);
 
     const res = await fetch("http://localhost:5098/api/clientes/login", {
       method: "POST",
@@ -29,18 +29,37 @@ export default function LoginPage() {
       localStorage.setItem("token", data.token);
       localStorage.setItem("user", JSON.stringify({ id: data.id, nome: data.nome, email: data.email }));
       alert(`Bem-vindo, ${data.nome}!`);
-      router.push("/dashboard");
+      router.push("/cardapio");
     } else {
       alert("Login inválido");
     }
   };
 
   return (
-    <div className="p-6">
-      <h2 className="text-xl font-bold mb-4">Login</h2>
-      <input name="email" placeholder="Email" className="block mb-2 border p-2" onChange={handleChange} />
-      <input name="senha" type="password" placeholder="Senha" className="block mb-4 border p-2" onChange={handleChange} />
-      <button onClick={handleLogin} className="bg-red-600 text-white px-4 py-2 rounded">Entrar</button>
+    <div className={styles.loginMain}>
+      <div className={styles.card}>
+        <h2 className={styles.title}>Login</h2>
+        <form className={styles.form} onSubmit={handleLogin}>
+          <input
+            name="email"
+            placeholder="Email"
+            className={styles.input}
+            value={form.email}
+            onChange={handleChange}
+          />
+          <input
+            name="senha"
+            type="password"
+            placeholder="Senha"
+            className={styles.input}
+            value={form.senha}
+            onChange={handleChange}
+          />
+          <button type="submit" className={styles.button}>
+            Entrar
+          </button>
+        </form>
+      </div>
     </div>
   );
 }

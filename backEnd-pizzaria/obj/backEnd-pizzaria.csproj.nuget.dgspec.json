@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\college-projects-sw\\Pizzaria-Quarta\\API-pizzaria-next\\backEnd-pizzaria\\backEnd-pizzaria.csproj": {}
+    "C:\\sw_cod\\AtividadeAvaliativa\\API-pizzaria-react\\backEnd-pizzaria\\backEnd-pizzaria.csproj": {}
   },
   "projects": {
-    "C:\\college-projects-sw\\Pizzaria-Quarta\\API-pizzaria-next\\backEnd-pizzaria\\backEnd-pizzaria.csproj": {
+    "C:\\sw_cod\\AtividadeAvaliativa\\API-pizzaria-react\\backEnd-pizzaria\\backEnd-pizzaria.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\college-projects-sw\\Pizzaria-Quarta\\API-pizzaria-next\\backEnd-pizzaria\\backEnd-pizzaria.csproj",
+        "projectUniqueName": "C:\\sw_cod\\AtividadeAvaliativa\\API-pizzaria-react\\backEnd-pizzaria\\backEnd-pizzaria.csproj",
         "projectName": "backEnd-pizzaria",
-        "projectPath": "C:\\college-projects-sw\\Pizzaria-Quarta\\API-pizzaria-next\\backEnd-pizzaria\\backEnd-pizzaria.csproj",
-        "packagesPath": "C:\\Users\\Igor\\.nuget\\packages\\",
-        "outputPath": "C:\\college-projects-sw\\Pizzaria-Quarta\\API-pizzaria-next\\backEnd-pizzaria\\obj\\",
+        "projectPath": "C:\\sw_cod\\AtividadeAvaliativa\\API-pizzaria-react\\backEnd-pizzaria\\backEnd-pizzaria.csproj",
+        "packagesPath": "C:\\Users\\igorm\\.nuget\\packages\\",
+        "outputPath": "C:\\sw_cod\\AtividadeAvaliativa\\API-pizzaria-react\\backEnd-pizzaria\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Igor\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\igorm\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -85,7 +85,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

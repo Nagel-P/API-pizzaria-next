@@ -1,16 +1,22 @@
-// src/components/Header.tsx
-import Link from "next/link";
+import Image from "next/image";
+import styles from "./header.module.css"
 
 export default function Header() {
   return (
-    <header className="bg-red-600 text-white p-4 shadow-md">
-      <div className="container mx-auto flex justify-between items-center">
-        <h1 className="text-xl font-bold">doublepizzas</h1>
-        <nav className="space-x-4">
-          <Link href="/" className="hover:underline">Início</Link>
-          <Link href="/cardapio" className="hover:underline">Cardápio</Link>
-          <Link href="/login" className="hover:underline">Login</Link>
-        </nav>
+    <header className={styles.header}>
+      <div className={styles.container}>
+        <div className={styles.containerHeader}>
+          <div className={styles.logo}>
+            <Image src="/images/logo.png" alt="Logo da pizzaria" width={120} height={120} />
+          </div>
+
+          <nav className={styles.navbar}>
+            <a href="/cardapio">Cardapio</a>
+            <a href="/login">Login</a>
+            <a href="/cadastro">Cadastro</a>
+            <a href="/cadastroPizza">Administrador</a>
+          </nav>
+        </div>
       </div>
     </header>
   );

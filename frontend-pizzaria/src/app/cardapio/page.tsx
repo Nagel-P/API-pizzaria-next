@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import CardItem from "@/components/CardItem";
 import styles from './cardapio.module.css';
+import { useCarrinho } from "@/context/carrinhoContext";
 
 type Pizza = {
   id: number;
@@ -14,6 +15,7 @@ type Pizza = {
 
 export default function CardapioPage() {
   const [pizzas, setPizzas] = useState<Pizza[]>([]);
+  const { adicionarPizza } = useCarrinho();
 
   useEffect(() => {
     async function fetchPizzas() {
@@ -42,7 +44,7 @@ export default function CardapioPage() {
             nome={pizza.nome}
             descricao={pizza.descricao}
             preco={Number(pizza.preco)}
-            onAdicionar={() => alert(`Pizza ${pizza.nome} adicionada!`)}
+            onAdicionar={() => adicionarPizza(pizza)}
           />
         ))}
       </div>

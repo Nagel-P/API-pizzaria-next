@@ -1,7 +1,11 @@
 {
   "Files": [
     {
+<<<<<<< HEAD
       "Id": "D:\\bkp\\Documents\\Geral\\PROGRAMACAO\\Next\\ProjetoPizzaria3\\API-pizzaria-next\\backEnd-pizzaria\\wwwroot\\images\\calabresa.jpg",
+=======
+      "Id": "C:\\sw_cod\\AtividadeAvaliativa\\API-pizzaria-react\\backEnd-pizzaria\\wwwroot\\images\\calabresa.jpg",
+>>>>>>> 418866c357be81417f0b64209a71c3b83ddd5fa2
       "PackagePath": "staticwebassets\\images\\calabresa.jpg"
     },
     {

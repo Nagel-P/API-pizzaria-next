@@ -1,6 +1,10 @@
 {
   "Version": 1,
+<<<<<<< HEAD
   "Hash": "WUwCJUJeVajXAAxp4w1XMAmdmeQwSc7jpJ+Jf/BfGcE=",
+=======
+  "Hash": "lxp6Pu58nb0MaHIgDYLKpC4A1UA4YgrLdPMOBw8GK7U=",
+>>>>>>> 418866c357be81417f0b64209a71c3b83ddd5fa2
   "Source": "backEnd-pizzaria",
   "BasePath": "_content/backEnd-pizzaria",
   "Mode": "Default",
@@ -10,17 +14,28 @@
     {
       "Name": "backEnd-pizzaria\\wwwroot",
       "Source": "backEnd-pizzaria",
+<<<<<<< HEAD
       "ContentRoot": "D:\\bkp\\Documents\\Geral\\PROGRAMACAO\\Next\\ProjetoPizzaria3\\API-pizzaria-next\\backEnd-pizzaria\\wwwroot\\",
+=======
+      "ContentRoot": "C:\\sw_cod\\AtividadeAvaliativa\\API-pizzaria-react\\backEnd-pizzaria\\wwwroot\\",
+>>>>>>> 418866c357be81417f0b64209a71c3b83ddd5fa2
       "BasePath": "_content/backEnd-pizzaria",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
+<<<<<<< HEAD
       "Identity": "D:\\bkp\\Documents\\Geral\\PROGRAMACAO\\Next\\ProjetoPizzaria3\\API-pizzaria-next\\backEnd-pizzaria\\wwwroot\\images\\calabresa.jpg",
       "SourceId": "backEnd-pizzaria",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\bkp\\Documents\\Geral\\PROGRAMACAO\\Next\\ProjetoPizzaria3\\API-pizzaria-next\\backEnd-pizzaria\\wwwroot\\",
+=======
+      "Identity": "C:\\sw_cod\\AtividadeAvaliativa\\API-pizzaria-react\\backEnd-pizzaria\\wwwroot\\images\\calabresa.jpg",
+      "SourceId": "backEnd-pizzaria",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\sw_cod\\AtividadeAvaliativa\\API-pizzaria-react\\backEnd-pizzaria\\wwwroot\\",
+>>>>>>> 418866c357be81417f0b64209a71c3b83ddd5fa2
       "BasePath": "_content/backEnd-pizzaria",
       "RelativePath": "images/calabresa.jpg",
       "AssetKind": "All",

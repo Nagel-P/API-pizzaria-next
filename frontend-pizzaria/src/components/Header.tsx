@@ -14,6 +14,7 @@ export default function Header() {
             <a href="/cardapio">Cardapio</a>
             <a href="/login">Login</a>
             <a href="/cadastro">Cadastro</a>
+            <a href="/carrinho">Carrinho</a>
             <a href="/cadastroPizza">Administrador</a>
           </nav>
         </div>

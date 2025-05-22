@@ -1,4 +1,6 @@
 import Header from '../components/Header'; 
+import { CarrinhoProvider } from '../context/carrinhoContext';
+
 
 export const metadata = {
   title: 'Pizzaria Next.js',
@@ -11,7 +13,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <head />
       <body>
         <Header />
-        {children}
+        <CarrinhoProvider>
+          {children}
+        </CarrinhoProvider>
         <footer>
           <p>© 2025 Pizzaria</p>
         </footer>

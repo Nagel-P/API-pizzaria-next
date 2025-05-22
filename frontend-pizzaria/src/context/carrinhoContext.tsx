@@ -29,6 +29,7 @@ export const CarrinhoProvider = ({ children }: { children: React.ReactNode }) =>
   const [itens, setItens] = useState<ItemCarrinho[]>([]);
 
   const adicionarPizza = (pizza: Pizza) => {
+    console.log('Adicionando ao carrinho:', pizza);
     setItens(prev => {
       const existente = prev.find(item => item.pizza.id === pizza.id);
       if (existente) {

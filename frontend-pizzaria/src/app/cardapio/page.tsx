@@ -35,7 +35,7 @@ export default function CardapioPage() {
 
   return (
     <main className={styles.containerCardapio}>
-      <h2 className={styles.titulo}>Nosso Cardápio</h2>
+      <h2 className={styles.titulo}>NOSSO CARDÁPIO</h2>
 
       <div className={styles.gridCardapio}>
         {pizzas.map((pizza) => (

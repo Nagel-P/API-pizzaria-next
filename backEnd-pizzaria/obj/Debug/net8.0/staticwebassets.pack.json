@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\college-projects-sw\\Pizzaria-Quarta\\API-pizzaria-next\\backEnd-pizzaria\\wwwroot\\images\\calabresa.jpg",
+      "PackagePath": "staticwebassets\\images\\calabresa.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.backEnd-pizzaria.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.backEnd-pizzaria.props",
+      "PackagePath": "build\\backEnd-pizzaria.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.backEnd-pizzaria.props",
+      "PackagePath": "buildMultiTargeting\\backEnd-pizzaria.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.backEnd-pizzaria.props",
+      "PackagePath": "buildTransitive\\backEnd-pizzaria.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

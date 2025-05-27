@@ -1,0 +1,39 @@
+{
+  "Version": 1,
+  "Hash": "iVhQRQMcPy3JIEzUwuKVDiCbU6aeCAN71h8Z9mBPayQ=",
+  "Source": "backEnd-pizzaria",
+  "BasePath": "_content/backEnd-pizzaria",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "backEnd-pizzaria\\wwwroot",
+      "Source": "backEnd-pizzaria",
+      "ContentRoot": "C:\\college-projects-sw\\Pizzaria-Quarta\\API-pizzaria-next\\backEnd-pizzaria\\wwwroot\\",
+      "BasePath": "_content/backEnd-pizzaria",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\college-projects-sw\\Pizzaria-Quarta\\API-pizzaria-next\\backEnd-pizzaria\\wwwroot\\images\\calabresa.jpg",
+      "SourceId": "backEnd-pizzaria",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\college-projects-sw\\Pizzaria-Quarta\\API-pizzaria-next\\backEnd-pizzaria\\wwwroot\\",
+      "BasePath": "_content/backEnd-pizzaria",
+      "RelativePath": "images/calabresa.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\calabresa.jpg"
+    }
+  ]
+}

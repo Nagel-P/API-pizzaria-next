@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet');
+
+.header {
+  font-family: 'Raleway', sans-serif;
+  background-image: url("/images/fundo2.JPG"); 
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 40px;
+  
+}
+
+.containerHeader{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.logo {
+  flex-shrink: 0;
+}
+
+.navbar {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  font-size: 18px;
+}
+
+.navbar a {
+  position: relative;
+  text-decoration: none;
+  color: white;
+  padding: 0.5rem 1rem;
+  font-weight: bold;
+}
+
+.navbar a::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 3px;
+  left: 0;
+  bottom: 0;
+  background: red;
+  transition: width 0.3s;
+}
+
+.navbar a:hover::after {
+  width: 100%;
+}

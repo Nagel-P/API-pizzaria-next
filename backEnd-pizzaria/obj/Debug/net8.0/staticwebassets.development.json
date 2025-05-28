@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-{"ContentRoots":["D:\\bkp\\Documents\\Geral\\PROGRAMACAO\\Next\\ProjetoPizzaria3\\API-pizzaria-next\\backEnd-pizzaria\\wwwroot\\"],"Root":{"Children":{"images":{"Children":{"calabresa.jpg":{"Children":null,"Asset":{"ContentRootIndex":0,"SubPath":"images/calabresa.jpg"},"Patterns":null}},"Asset":null,"Patterns":null}},"Asset":null,"Patterns":[{"ContentRootIndex":0,"Pattern":"**","Depth":0}]}}
-=======
-{"ContentRoots":["C:\\sw_cod\\AtividadeAvaliativa\\API-pizzaria-react\\backEnd-pizzaria\\wwwroot\\"],"Root":{"Children":{"images":{"Children":{"calabresa.jpg":{"Children":null,"Asset":{"ContentRootIndex":0,"SubPath":"images/calabresa.jpg"},"Patterns":null}},"Asset":null,"Patterns":null}},"Asset":null,"Patterns":[{"ContentRootIndex":0,"Pattern":"**","Depth":0}]}}
->>>>>>> 418866c357be81417f0b64209a71c3b83ddd5fa2
+{"ContentRoots":["C:\\college-projects-sw\\Pizzaria-Quarta\\API-pizzaria-next\\backEnd-pizzaria\\wwwroot\\"],"Root":{"Children":{"images":{"Children":{"calabresa.jpg":{"Children":null,"Asset":{"ContentRootIndex":0,"SubPath":"images/calabresa.jpg"},"Patterns":null}},"Asset":null,"Patterns":null}},"Asset":null,"Patterns":[{"ContentRootIndex":0,"Pattern":"**","Depth":0}]}}

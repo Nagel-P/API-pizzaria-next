@@ -1,9 +1,11 @@
 // src/components/Footer.tsx
+import styles from "./footer.module.css"
+
 export default function Footer() {
     return (
-      <footer className="bg-gray-100 text-center p-4 mt-10">
-        <p className="text-sm text-gray-600">
-          © {new Date().getFullYear()} doublepizzas pizzaria. Todos os direitos reservados.
+      <footer className={styles.footer}>
+        <p className={styles.footerName}>
+          © {new Date().getFullYear()} Doublepizzas pizzaria. Todos os direitos reservados.
         </p>
       </footer>
     );

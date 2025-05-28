@@ -1,4 +1,5 @@
 import Header from '../components/Header'; 
+import Footer from '@/components/Footer';
 import { CarrinhoProvider } from '../context/carrinhoContext';
 
 
@@ -16,9 +17,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <CarrinhoProvider>
           {children}
         </CarrinhoProvider>
-        <footer>
-          <p>© 2025 Pizzaria</p>
-        </footer>
+        <Footer/>
       </body>
     </html>
   )

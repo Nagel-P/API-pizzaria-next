@@ -11,11 +11,11 @@ export default function Header() {
           </div>
 
           <nav className={styles.navbar}>
-            <a href="/cardapio">Cardapio</a>
-            <a href="/login">Login</a>
-            <a href="/cadastro">Cadastro</a>
-            <a href="/carrinho">Carrinho</a>
-            <a href="/cadastroPizza">Administrador</a>
+            <a href="/cardapio">CARDAPIO</a>
+            <a href="/login">LOGIN</a>
+            <a href="/cadastro">CADASTRO</a>
+            <a href="/carrinho">CARRINHO</a>
+            <a href="/cadastroPizza">ADMINISTRADOR</a>
           </nav>
         </div>
       </div>

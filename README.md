@@ -16,27 +16,27 @@ O nosso trabalho consiste em um sistema de pizzaria, com as seguintes funcionali
 # 🛠️ Tecnologias Utilizadas
 
 # Back-end:
-Linguagem: C# (.NET 8)
-Framework: ASP.NET Core
-ORM: Entity Framework Core
-Banco de Dados: MySQL
-Autenticação: JWT
-Documentação: Swagger (Swashbuckle)
+- Linguagem: C# (.NET 8)
+- Framework: ASP.NET Core
+- ORM: Entity Framework Core
+- Banco de Dados: MySQL
+- Autenticação: JWT
+- Documentação: Swagger (Swashbuckle)
 
 # Front-end:
-Framework: Next.js
-Linguagem: TypeScript (.tsx)
-Estilização: CSS Modules (*.module.css)
+- Framework: Next.js
+- Linguagem: TypeScript (.tsx)
+- Estilização: CSS Modules (*.module.css)
 
 # Versionamento:
-Git + GitHub
-Visual Studio Code (VS Code)
+- Git + GitHub
+- Visual Studio Code (VS Code)
 
 # 📦 Principais Pacotes Utilizados no Back-end
-Microsoft.AspNetCore.Authentication.JwtBearer
-Microsoft.EntityFrameworkCore
-Pomelo.EntityFrameworkCore.MySql
-Swashbuckle.AspNetCore
+- Microsoft.AspNetCore.Authentication.JwtBearer
+- Microsoft.EntityFrameworkCore
+- Pomelo.EntityFrameworkCore.MySql
+- Swashbuckle.AspNetCore
 
 # 🔐 Observação:
 O projeto utiliza autenticação via JWT para segurança das rotas e autenticação dos usuários.

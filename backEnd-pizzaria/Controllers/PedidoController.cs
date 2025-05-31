@@ -23,7 +23,6 @@ public class PedidoController : ControllerBase
     [HttpPost("finalizar")]
     public async Task<IActionResult> FinalizarPedido([FromBody] Carrinho carrinho)
     {
-        // Simulação: você deveria verificar se o pagamento foi aprovado
         bool pagamentoConfirmado = true;
 
         if (!pagamentoConfirmado)
@@ -33,7 +32,7 @@ public class PedidoController : ControllerBase
         {
             ClienteId = carrinho.ClienteId,
             DataHoraPedido = DateTime.Now,
-            Pizzas = carrinho.Pizzas // Isso já serializa para PizzasJson
+            Pizzas = carrinho.Pizzas 
         };
 
         _context.Pedidos.Add(pedido);

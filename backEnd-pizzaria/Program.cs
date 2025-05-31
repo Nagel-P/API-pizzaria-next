@@ -6,7 +6,6 @@ using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
@@ -15,7 +14,6 @@ var connectionString = builder.Configuration.GetConnectionString("AppDbConnectio
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString)));
 
-// Configuração do JWT
 var key = Encoding.ASCII.GetBytes("chave-muito-segura-para-gerar-token!");
 
 builder.Services.AddAuthentication(options =>
@@ -36,7 +34,6 @@ builder.Services.AddAuthentication(options =>
     };
 });
 
-// CONFIGURAÇÃO DO CORS
 builder.Services.AddCors(options =>
 {
     options.AddDefaultPolicy(policy =>
@@ -49,7 +46,6 @@ builder.Services.AddCors(options =>
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
@@ -57,8 +53,6 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseStaticFiles();
-
-// app.UseHttpsRedirection(); Testando
 
 app.UseCors(); 
 

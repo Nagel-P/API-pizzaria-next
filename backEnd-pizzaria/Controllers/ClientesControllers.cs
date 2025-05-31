@@ -75,7 +75,7 @@ namespace backEnd_pizzaria.Data
 
         #region Autenticação
 
-        // POST: api/clientes/login
+
         [HttpPost("login")]
         public async Task<IActionResult> Login([FromBody] LoginDto loginDto)
         {

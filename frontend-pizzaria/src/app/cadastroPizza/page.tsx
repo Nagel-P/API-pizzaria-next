@@ -30,7 +30,6 @@ export default function CadastroPizza() {
         setNome('');
         setDescricao('');
         setValor('');
-        setImagem('');
         setPizzaEncontrada(false);
         setError(null);
     };
@@ -49,8 +48,7 @@ export default function CadastroPizza() {
         const novaPizza = {
             nome: nome.trim(),
             descricao: descricao.trim(),
-            preco: parseFloat(valor),
-            imagemUrl: imagem.trim()
+            preco: parseFloat(valor)
         };
 
         try {
@@ -98,7 +96,6 @@ export default function CadastroPizza() {
             setNome(pizza.nome);
             setDescricao(pizza.descricao);
             setValor(pizza.preco.toString());
-            setImagem(pizza.imagemUrl);
             setPizzaEncontrada(true);
         } catch (err: any) {
             alert(err.message.includes('404') ? 'Pizza não encontrada.' : err.message);
@@ -113,7 +110,6 @@ export default function CadastroPizza() {
             nome: nome.trim(),
             descricao: descricao.trim(),
             preco: parseFloat(valor),
-            imagemUrl: imagem.trim()
         };
 
         try {
@@ -177,7 +173,6 @@ export default function CadastroPizza() {
                                 <div className={styles.formGroup}><label>Nome:</label><input value={nome} onChange={(e) => setNome(e.target.value)} /></div>
                                 <div className={styles.formGroup}><label>Descrição:</label><input value={descricao} onChange={(e) => setDescricao(e.target.value)} /></div>
                                 <div className={styles.formGroup}><label>Valor:</label><input type="number" value={valor} onChange={(e) => setValor(e.target.value)} /></div>
-                                <div className={styles.formGroup}><label>Imagem:</label><input value={imagem} onChange={(e) => setImagem(e.target.value)} /></div>
                                 <button className={styles.add} type="button" onClick={handleAddPizza} disabled={loading}>
                                     {loading ? 'Processando...' : 'Adicionar produto'}
                                 </button>
@@ -197,7 +192,6 @@ export default function CadastroPizza() {
                                         <div className={styles.formGroup}><label>Nome:</label><input value={nome} onChange={(e) => setNome(e.target.value)} /></div>
                                         <div className={styles.formGroup}><label>Descrição:</label><input value={descricao} onChange={(e) => setDescricao(e.target.value)} /></div>
                                         <div className={styles.formGroup}><label>Valor:</label><input type="number" value={valor} onChange={(e) => setValor(e.target.value)} /></div>
-                                        <div className={styles.formGroup}><label>Imagem:</label><input value={imagem} onChange={(e) => setImagem(e.target.value)} /></div>
                                         <button className={styles.add} onClick={handleUpdatePizza} disabled={loading}>
                                             {loading ? 'Atualizando...' : 'Atualizar'}
                                         </button>
@@ -227,7 +221,6 @@ export default function CadastroPizza() {
                                 ) : (
                                     pizzas.map((pizza) => (
                                         <div key={pizza.id} className={styles.card}>
-                                            <img className={styles.img} src={pizza.imagemUrl} alt={pizza.nome} />
                                             <div className={styles.cardInfo}>
                                                 <p>ID: {pizza.id}</p>
                                                 <h3>{pizza.nome}</h3>

@@ -55,11 +55,9 @@ namespace backEnd_pizzaria.Controllers
             if (pizzaExistente == null)
                 return NotFound(new { message = "Pizza não encontrada no sistema!" });
 
-            // Atualiza os campos manualmente sem sobrescrever o ID
             pizzaExistente.Nome = pizzaAtualizada.Nome;
             pizzaExistente.Descricao = pizzaAtualizada.Descricao;
             pizzaExistente.Preco = pizzaAtualizada.Preco;
-            pizzaExistente.ImagemUrl = pizzaAtualizada.ImagemUrl;
 
             await _appDbContext.SaveChangesAsync();
 

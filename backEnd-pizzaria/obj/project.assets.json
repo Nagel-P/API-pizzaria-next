@@ -1749,19 +1749,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\User\\.nuget\\packages\\": {}
+    "C:\\Users\\igorm\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\bkp\\Documents\\Geral\\PROGRAMACAO\\Next\\ProjetoPizzaria3\\API-pizzaria-next\\backEnd-pizzaria\\backEnd-pizzaria.csproj",
+      "projectUniqueName": "C:\\SistemaPizzariaDouble\\API-pizzaria-next\\backEnd-pizzaria\\backEnd-pizzaria.csproj",
       "projectName": "backEnd-pizzaria",
-      "projectPath": "D:\\bkp\\Documents\\Geral\\PROGRAMACAO\\Next\\ProjetoPizzaria3\\API-pizzaria-next\\backEnd-pizzaria\\backEnd-pizzaria.csproj",
-      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "D:\\bkp\\Documents\\Geral\\PROGRAMACAO\\Next\\ProjetoPizzaria3\\API-pizzaria-next\\backEnd-pizzaria\\obj\\",
+      "projectPath": "C:\\SistemaPizzariaDouble\\API-pizzaria-next\\backEnd-pizzaria\\backEnd-pizzaria.csproj",
+      "packagesPath": "C:\\Users\\igorm\\.nuget\\packages\\",
+      "outputPath": "C:\\SistemaPizzariaDouble\\API-pizzaria-next\\backEnd-pizzaria\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\igorm\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -1832,7 +1832,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

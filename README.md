@@ -10,8 +10,8 @@ O nosso trabalho consiste em um sistema de pizzaria, com as seguintes funcionali
 - Cardápio dinâmico, que exibe todas as pizzas cadastradas no banco de dados na aba "Cardápio", permitindo que os clientes possam visualizar as opções disponíveis.
 
 # 👥 Integrantes da Dupla
-- Igor Mateus Mordaski - @igormordaski7
-- Pedro Nagel Alves - @Nagel-P
+- Igor Mateus Mordaski - @igormordaski7 (https://github.com/igormordaski7)
+- Pedro Nagel Alves - @Nagel-P (https://github.com/Nagel-P)
 
 # 🛠️ Tecnologias Utilizadas
 

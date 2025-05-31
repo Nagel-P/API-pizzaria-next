@@ -1,81 +1,56 @@
-📚 Double Pizzaria
-🧾 Descrição
+# 📚 Double Pizzaria
+
+# 🧾 Descrição
 O nosso trabalho consiste em um sistema de pizzaria, com as seguintes funcionalidades:
 
-Possibilidade de login e cadastro de usuários.
+- Possibilidade de login e cadastro de usuários.
+- Cadastro de pizzas, contendo nome, descrição e valor.
+- Funções de editar e excluir pizzas.
+- Listagem completa de todas as pizzas na página de administrador.
+- Cardápio dinâmico, que exibe todas as pizzas cadastradas no banco de dados na aba "Cardápio", permitindo que os clientes possam visualizar as opções disponíveis.
 
-Cadastro de pizzas, contendo nome, descrição e valor.
+# 👥 Integrantes da Dupla
+- Igor Mateus Mordaski - @igormordaski7
+- Pedro Nagel Alves - @Nagel-P
 
-Funções de editar e excluir pizzas.
+# 🛠️ Tecnologias Utilizadas
 
-Listagem completa de todas as pizzas na página de administrador.
-
-Cardápio dinâmico, que exibe todas as pizzas cadastradas no banco de dados na aba "Cardápio", permitindo que os clientes possam visualizar as opções disponíveis.
-
-👥 Integrantes da Dupla
-
-Igor Mateus Mordaski - @igormordaski7
-
-Pedro Nagel Alves - @Nagel-P
-
-🛠️ Tecnologias Utilizadas
-
-Back-end:
-
+# Back-end:
 Linguagem: C# (.NET 8)
-
 Framework: ASP.NET Core
-
 ORM: Entity Framework Core
-
 Banco de Dados: MySQL
-
 Autenticação: JWT
-
 Documentação: Swagger (Swashbuckle)
 
-Front-end:
-
+# Front-end:
 Framework: Next.js
-
 Linguagem: TypeScript (.tsx)
-
 Estilização: CSS Modules (*.module.css)
 
-Versionamento:
-
+# Versionamento:
 Git + GitHub
-
 Visual Studio Code (VS Code)
 
-📦 Principais Pacotes Utilizados no Back-end
-
+# 📦 Principais Pacotes Utilizados no Back-end
 Microsoft.AspNetCore.Authentication.JwtBearer
-
 Microsoft.EntityFrameworkCore
-
 Pomelo.EntityFrameworkCore.MySql
-
 Swashbuckle.AspNetCore
 
-🔐 Observação:
+# 🔐 Observação:
 O projeto utiliza autenticação via JWT para segurança das rotas e autenticação dos usuários.
 
-🚀 Como Executar o Projeto
+# 🚀 Como Executar o Projeto
 
-✅ Pré-requisitos
+# ✅ Pré-requisitos
 .NET SDK 8.0+
-
 Node.js 18+ 
-
 MySQL 8.0+
-
 Git
-
 Visual Studio Code (VS Code)
 
-Passos
-
+# Passos
 # 1. Clone o repositório
 git clone https://github.com/Nagel-P/API-pizzaria-next
 
@@ -99,5 +74,3 @@ dotnet ef database update
 
 # 6. Execute a aplicação back-end
 dotnet run
-
-# A aplicação iniciará, por padrão, em: http://localhost:5000 ou https://localhost:5001
